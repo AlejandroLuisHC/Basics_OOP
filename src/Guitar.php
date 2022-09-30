@@ -1,0 +1,3 @@
+<?php
+
+// Inherits super class
