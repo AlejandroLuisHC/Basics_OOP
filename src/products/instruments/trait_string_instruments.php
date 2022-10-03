@@ -5,11 +5,6 @@
         public string $technique;
         public static string $family = 'Strings';
 
-        // function __construct($n, $technique){
-        //     $this -> noStrings = $n;
-        //     $this -> technique = $technique;
-        // }
-
         static function familyDefinition() {
             return "family instruments are musical instruments that produce sound from vibrating strings when a performer 
                 plays or sounds the strings in some manner.";
