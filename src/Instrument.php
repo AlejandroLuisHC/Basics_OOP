@@ -1,3 +1,0 @@
-<?php
-
-//Super class
