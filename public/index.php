@@ -11,7 +11,7 @@
 </head>
 <body>
     <?php
-        $lesPaul = new Guitar('guitar', 950, 'electric', 'Gibson', 6, 'Plucking');
+        $lesPaul = new Guitar('guitar', 950, 6, 'Plucking', 'electric', 'Gibson');
 
         echo '<br>';
         echo '<br> Sample: <br>';
