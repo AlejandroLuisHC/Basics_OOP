@@ -1,5 +1,5 @@
 # Basics_OOP
-The main purpouse of this proyect is to get grips with PHP OOP mdoel and its syntax. 
+The main purpouse of this proyect is to get grips with PHP OOP model and its syntax. 
 
 ## Main goals in this project
 * Improve your knowledge in object-oriented programming.
