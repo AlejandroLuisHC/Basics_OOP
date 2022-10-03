@@ -11,7 +11,7 @@
 </head>
 <body>
     <?php
-        $lesPaul = new Guitar('guitar', 950, 'electric', 'Gibson');
+        $lesPaul = new Guitar('guitar', 950, 'electric', 'Gibson', 6, 'Plucking');
 
         echo '<br>';
         echo '<br> Sample: <br>';
@@ -32,6 +32,13 @@
         echo '<br> All information: <br>';
         echo $lesPaul -> getData();
         echo '<br>';
+        echo '<br>';
+        
+        echo '<br> All family information: <br>';
+        echo $lesPaul::$family . " ";
+        echo $lesPaul -> familyDefinition();
+        echo '<br>';
+        echo $lesPaul -> getFamilyData($lesPaul-> noStrings, $lesPaul -> technique);
         echo '<br>';
         
         echo '<br> *Clicked add to cart button* <br>';

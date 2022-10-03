@@ -5,7 +5,6 @@
         protected int $id;
         protected string $type;
         protected int $price;
-        static $family; 
         
         function __construct($type, $price){
             $this -> type = $type;
